@@ -6,6 +6,17 @@ resource "aws_instance" "test" {
   subnet_id = "${aws_subnet.dev.id}"
   vpc_security_group_ids = ["${aws_security_group.dev.id}"]
   associate_public_ip_address = "true"
+
+  connection  {
+      user = "${var.ssh_user}"
+      private_key = "${file(var.key_path)}"
+  }
+
+  provisioner "remote-exec" {
+      # inline = [" sudo yum install httpd -y "]
+      script = "${file(var.script_path)}"
+  }
+
   tags {
       Name = "${var.environment}${count.index +1}"
       Env = "${var.environment}"

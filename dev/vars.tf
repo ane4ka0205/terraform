@@ -5,3 +5,6 @@ variable "instance_count" {}
 variable "environment" {}
 variable "created_by" {}
 variable "dept" {}
+variable "key_path" {}
+variable "ssh_user" {}
+variable "script_path" {}

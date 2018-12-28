@@ -5,3 +5,6 @@ instance_count		=	3
 environment		= 	"Dev"
 created_by		=	"anna"
 dept			=	"ITOps"
+ssh_user		= 	"ec2-user"
+key_path		=	"/root/.ssh/id_rsa"
+script_path		=	"terraform/dev/userdata.sh"
