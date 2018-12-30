@@ -12,10 +12,7 @@ resource "aws_instance" "test" {
       private_key = "${file(var.key_path)}"
   }
 
-  provisioner "remote-exec" {
-      # inline = [" sudo yum install httpd -y "]
-      script = "${file(var.script_path)}"
-  }
+  
 
   tags {
       Name = "${var.environment}${count.index +1}"
