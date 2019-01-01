@@ -3,46 +3,51 @@
 - DEV
  - [x] VPC
  - [x] Subnet
- IGW
- Route Table
- Route Table Association
- Security Group
- Instance
- Need to Create LB
- Kubernetes Cluster
-UAT
- VPC
- Subnet
- IGW
- Route Table
- Route Table Association
- Security Group
- Instance
- Need to Create LB
-QA
- VPC
- Subnet
- IGW
- Route Table
- Route Table Association
- Security Group
- Instance
- Need to Create LB
-STAGE
- VPC
- Subnet
- IGW
- Route Table
- Route Table Association
- Security Group
- Instance
- Need to Create LB
-PROD
- VPC
- Subnet
- IGW
- Route Table
- Route Table Association
- Security Group
- Instance
- Need to Create LB
+ - [x] IGW
+ - [x] Route Table
+ - [x] Route Table Association
+ - [x] Security Group
+ - [x] Instance
+ - [x] Need to Create LB
+ - [x] Kubernetes Cluster
+ - [x] Kubernetes Private Cluster
+- UAT
+ - [x] VPC
+ - [x] Subnet
+ - [x] IGW
+ - [x] Route Table
+ - [x] Route Table Association
+ - [x] Security Group
+ - [x] Instance
+ - [x] Need to Create LB
+ - [x] Kubernetes Private Cluster
+- QA
+ - [x] VPC
+ - [x] Subnet
+ - [x] IGW
+ - [x] Route Table
+ - [x] Route Table Association
+ - [x] Security Group
+ - [x] Instance
+ - [x] Need to Create LB
+ - [x] Kubernetes Private Cluster
+- STAGE
+ - [x] VPC
+ - [x] Subnet
+ - [x] IGW
+ - [x] Route Table
+ - [x] Route Table Association
+ - [x] Security Group
+ - [x] Instance
+ - [x] Need to Create LB
+ - [x] Kubernetes Private Cluster
+- PROD
+ - [x] VPC
+ - [x] Subnet
+ - [x] IGW
+ - [x] Route Table
+ - [x] Route Table Association
+ - [x] Security Group
+ - [x] Instance
+ - [x] Need to Create LB
+ - [x] Kubernetes Private Cluster
