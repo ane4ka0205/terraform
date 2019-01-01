@@ -1,7 +1,7 @@
-Terraform
-This repository if for creaing multiple Environments
-DEV
- VPC
+#Terraform
+###This repository if for creaing multiple Environments
+- DEV
+- [x] VPC
  Subnet
  IGW
  Route Table
