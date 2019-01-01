@@ -1,8 +1,8 @@
 #Terraform
 ###This repository if for creaing multiple Environments
-- DEV
-- [x] VPC
- Subnet
+DEV
+ - [x] VPC
+ - [x] Subnet
  IGW
  Route Table
  Route Table Association
